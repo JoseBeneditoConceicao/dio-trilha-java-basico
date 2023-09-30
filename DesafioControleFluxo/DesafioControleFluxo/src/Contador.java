@@ -22,7 +22,6 @@ public class Contador {
 		if(parametroUm > parametroDois)
             throw new ParametrosInvalidosException();
         int contagem = parametroDois - parametroUm;
-		//realizar o for para imprimir os números com base na variável contagem
         for (int vezes = 0; vezes < contagem;vezes++){
             System.out.println("Imprimindo o número " + (vezes + 1));
         }
